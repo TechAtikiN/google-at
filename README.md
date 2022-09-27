@@ -5,12 +5,17 @@
 ## Tech Stack
 - [x] Next.js
 - [x] Tailwind
-
+- [x] Google Search API
 ## Features
 * Search
 * Pagination
 * Responsive
 
 ## Home Screen
+![Home Screen](images/homescreen.png)
 
 ## Search page
+![Home Screen](images/searchpage.png)
+
+## Pagination
+![Home Screen](images/pagination.png)
