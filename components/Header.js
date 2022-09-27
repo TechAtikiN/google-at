@@ -27,7 +27,7 @@ function Header() {
           className="cursor-pointer"
         />
         <form className='flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center'>
-          <input ref={searchInputRef} className="flex-grow w-full focus:outline-none" type="text" />
+          <input ref={searchInputRef} defaultValue={router.query.term} className="flex-grow w-full focus:outline-none" type="text" />
           <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-gray-500 cursor-pointer transition
               duration-100 transform hover:scale-125 sm:mr-3"
             onClick={() => (searchInputRef.current.value = "")}
