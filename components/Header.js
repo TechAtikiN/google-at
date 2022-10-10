@@ -20,6 +20,7 @@ function Header() {
     <header className='sticky top-0 bg-white'>
       <div className='flex w-full p-6 items-center'>
         <Image
+          alt='bg'
           src="/google.png"
           height={30}
           width={80}
